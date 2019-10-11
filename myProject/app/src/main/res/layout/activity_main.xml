@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/baseLayout"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/image_slide"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1_1"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="현재 상영작 보기(예매순)"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1_2"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="현재 상영작 보기(평점순)"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="영화 평점 쓰기"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="내가 쓴 평점 보기"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</LinearLayout>

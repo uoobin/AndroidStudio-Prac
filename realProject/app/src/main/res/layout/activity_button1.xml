@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".button1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="210dp"
+        android:id="@+id/map"
+        android:layout_marginBottom="20dp"
+        android:src = "@drawable/map"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dt1"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:text="ㅇ동탄 1 신도시(동탄 1, 2, 3동) \n 면적 : 9.4(km²) \n 인구 : 132,052(명) \n 세대 : 48,063(세대) \n 교통 : 서동탄역(1호선)" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dt2"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:text="ㅇ동탄 2 신도시 : 동탄 4, 5, 6동 \n 면적 : 46.3‬(km²) \n 인구 : 161,721(명) \n 세대 : 57,477(세대) \n 교통 : 동탄역(SRT)"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hscity"
+        android:text="화성시청 홈페이지 바로가기"/>
+
+</LinearLayout>

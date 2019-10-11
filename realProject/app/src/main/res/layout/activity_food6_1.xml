@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".food6_1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/food6_1"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="랑만꼬치"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위치 : 경기도 화성시 동탄중심상가2길 30"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영업시간 : 매일 19:00 - 06:00 \n *매월 둘째, 넷째 일요일 휴무*"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화번호 : 031-8003-3598"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메뉴 및 가격\n 모듬꼬치 5종  ----------  20,000원 \n 오뎅탕 + 모듬꼬치 5종  ----------  35,000원 \n 마약옥수수  ----------  5,500원"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별점"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="40dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3.5"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/other"
+        android:text="다른 맛집 보러가기"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

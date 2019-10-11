@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/userInfo"
+        android:title="사용자 정보 입력">
+    </item>
+    <item
+        android:id="@+id/movieInfo"
+        android:title="영화 정보 입력">
+    </item>
+    <item
+        android:id="@+id/movieRate"
+        android:title="영화 감상평 입력">
+    </item>
+</menu>

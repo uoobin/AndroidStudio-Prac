@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".button3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food1"
+            android:text = "곱창"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food2"
+            android:text = "돈까스"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food3"
+            android:text = "파스타"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food3"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food4"
+            android:text = "일본식 가정식"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food4"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food5"
+            android:text = "쌀국수"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food5"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food6"
+            android:text = "꼬치"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food6"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food7"
+            android:text = "튀김"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food7"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/food8"
+            android:text = "카페"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/food8"/>
+    </LinearLayout>
+
+</ScrollView>

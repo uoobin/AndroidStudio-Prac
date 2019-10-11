@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".food7_1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/food7_1"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="호무라텐동"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위치 : 경기도 화성시 동탄공원로3길 18-20"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영업시간 : 매일 11:00 - 21:00 \n *15:00 - 17:00 브레이크타임* \n *월요일 휴무*"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화번호 : 031-373-5840"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메뉴 및 가격\n 에비텐동  ----------  13,500원 \n 비쿠리텐동  ----------  15,500원 \n 호무라텐동  ----------  9,000원"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="별점"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="40dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3.5"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/other"
+        android:text="다른 맛집 보러가기"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
